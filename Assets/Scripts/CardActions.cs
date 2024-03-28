@@ -42,20 +42,19 @@ public class CardActions : MonoBehaviour
                 PerformBlock();
                 battleSceneManager.DrawCards(1);
                 break;
-            case "IronWave":
+            case "Fireball":
                 AttackEnemy();
-                PerformBlock();
                 break;
-            case "Bloodletting":
-                AttackSelf();
-                ApplyBuff(Buff.Type.weak);
+            case "MagicBlock":
+                PerformBlock();
                 break;
             case "Bodyslam":
                 BodySlam();
                 break;
             case "PocketSand":
-                PocketSand();
+                AttackEnemy();
                 ApplyBuff(Buff.Type.vulnerable);
+                ApplyBuff(Buff.Type.weak);
                 break;
             default:
                 Debug.Log("theres an issue");

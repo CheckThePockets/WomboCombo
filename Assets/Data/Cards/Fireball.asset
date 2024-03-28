@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec5adad95ea339a43a847fb2fd71c150, type: 3}
-  m_Name: PocketSand
+  m_Name: Fireball
   m_EditorClassIdentifier: 
-  cardTitle: PocketSand
+  cardTitle: Fireball
   isUpgraded: 0
   cardDescription:
-    baseAmount: Apply 6 weak and Vulnerable
-    upgradedAmount: Apply 8 weak and Vulnerable
+    baseAmount: Deal 28 damage
+    upgradedAmount: Deal 32 damage
   cardCost:
-    baseAmount: 2
-    upgradedAmount: 1
+    baseAmount: 3
+    upgradedAmount: 2
   cardEffect:
+    baseAmount: 28
+    upgradedAmount: 32
+  buffAmount:
     baseAmount: 0
     upgradedAmount: 0
-  buffAmount:
-    baseAmount: 6
-    upgradedAmount: 8
-  cardIcon: {fileID: 21300000, guid: c094c4604100d5545bf3b6da81983889, type: 3}
+  cardIcon: {fileID: 21300000, guid: e4829bb400e1a9241b38993ced642812, type: 3}
   cardType: 0
   cardClass: 0
   cardTargetType: 1

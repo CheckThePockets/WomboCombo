@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec5adad95ea339a43a847fb2fd71c150, type: 3}
-  m_Name: PocketSand
+  m_Name: MagicBlock
   m_EditorClassIdentifier: 
-  cardTitle: PocketSand
+  cardTitle: MagicBlock
   isUpgraded: 0
   cardDescription:
-    baseAmount: Apply 6 weak and Vulnerable
-    upgradedAmount: Apply 8 weak and Vulnerable
+    baseAmount: Gain 10 Block
+    upgradedAmount: Gain 15 Block
   cardCost:
-    baseAmount: 2
+    baseAmount: 1
     upgradedAmount: 1
   cardEffect:
+    baseAmount: 10
+    upgradedAmount: 15
+  buffAmount:
     baseAmount: 0
     upgradedAmount: 0
-  buffAmount:
-    baseAmount: 6
-    upgradedAmount: 8
-  cardIcon: {fileID: 21300000, guid: c094c4604100d5545bf3b6da81983889, type: 3}
-  cardType: 0
+  cardIcon: {fileID: 21300000, guid: a64fa619797369940996ab6339b2af49, type: 3}
+  cardType: 1
   cardClass: 0
-  cardTargetType: 1
+  cardTargetType: 0

@@ -993,7 +993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 150
+  maxHealth: 120
   currentBlock: 0
   fighterHealthBar: {fileID: 1137176563113577820}
   vulnerable:

@@ -132,6 +132,9 @@ namespace TJ
             }
             vulnerable.buffValue+=amount;
             vulnerable.buffGO.DisplayBuff(vulnerable);
+
+                Debug.Log("wow");
+
         }
         else if(type==Buff.Type.weak)
         {
