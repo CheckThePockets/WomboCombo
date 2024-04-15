@@ -12,10 +12,14 @@ public class Map : MonoBehaviour
     public GameObject encounterPrefab;
     public Image enemyIcon, EliteIcon;
     public int eliteFloors;
+    public int eliteFloors2;
+    public int eliteFloors3;
+    public int eliteFloors4;
     public int chestFloors;
     public int restFloors;
     public Encounter enemyEncounter;
     public Encounter eliteEncounter;
+    
     public Encounter chestEncounter;
     public Encounter restEncounter;
     public int currentFloorNumber;
@@ -25,7 +29,18 @@ public class Map : MonoBehaviour
         {
             if(i==eliteFloors)
                 floors[i].SetNodesActive(eliteEncounter);
-            else if(i==chestFloors)
+            else if (i == eliteFloors2)
+                floors[i].SetNodesActive(eliteEncounter);
+            else if (i == eliteFloors3)
+                floors[i].SetNodesActive(eliteEncounter);
+            else if (i == eliteFloors4)
+                floors[i].SetNodesActive(eliteEncounter);
+
+
+
+
+
+                else if(i==chestFloors)
                 floors[i].SetNodesActive(chestEncounter);
             else if(i==restFloors)
                 floors[i].SetNodesActive(restEncounter);
@@ -56,6 +71,7 @@ public class Map : MonoBehaviour
         {
             if(i==eliteFloors)
                 floors[i].SetNodesActive(eliteEncounter);
+
             else if(i==chestFloors)
                 floors[i].SetNodesActive(chestEncounter);
             else if(i==restFloors)

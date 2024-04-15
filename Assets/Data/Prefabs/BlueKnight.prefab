@@ -1231,27 +1231,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 10
+  maxHealth: 55
   currentBlock: 0
   fighterHealthBar: {fileID: 1689344731920930019}
   vulnerable:
     type: 2
-    buffIcon: {fileID: 21300000, guid: c57791cc80e8f0a468fd514923819bf4, type: 3}
+    buffIcon: {fileID: 21300000, guid: 8d1ccaecc1dfdf04d91e09456383a5fd, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   weak:
     type: 3
-    buffIcon: {fileID: 21300000, guid: e74497badffcbad4182d2df3a7599b8f, type: 3}
+    buffIcon: {fileID: 21300000, guid: 117e9b9e048fbe642ab796c6a907791d, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   strength:
     type: 0
-    buffIcon: {fileID: 21300000, guid: c976812c798dcf24387145e0a137ca22, type: 3}
+    buffIcon: {fileID: 21300000, guid: 7a68186eb81fc9a41915e0dd90c75e3c, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   ritual:
     type: 4
-    buffIcon: {fileID: 21300000, guid: f643a45e495a7794f92701f5c157e2ca, type: 3}
+    buffIcon: {fileID: 21300000, guid: 51418bf05fbb4f34fa66ac38c0247feb, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   enrage:
@@ -1277,17 +1277,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyActions:
   - intentType: 0
-    amount: 6
+    amount: 12
     debuffAmount: 0
     buffType: 0
-    chance: 7
+    chance: 5
     icon: {fileID: 21300000, guid: c058a37556b675c4aba73550727d39e2, type: 3}
-  - intentType: 2
-    amount: 3
+  - intentType: 0
+    amount: 8
     debuffAmount: 0
     buffType: 0
-    chance: 3
-    icon: {fileID: 21300000, guid: 0bb448c3a2153cd4cb3940cf5e64ed6b, type: 3}
+    chance: 5
+    icon: {fileID: 21300000, guid: c058a37556b675c4aba73550727d39e2, type: 3}
   turns: []
   turnNumber: 0
   shuffleActions: 1
@@ -1296,12 +1296,12 @@ MonoBehaviour:
   intentAmount: {fileID: 1689344732803156029}
   intentUI: {fileID: 1689344732363842333}
   goldDrop: 22
-  CatKnight: 0
-  ComputerKnight: 0
-  BlueKnight: 1
-  nob: 0
-  BlueBuff: {fileID: 1689344732540434862}
-  nobBuff: {fileID: 0}
+  catKnight: 0
+  computerKnight: 0
+  blueKnight: 0
+  Boss: 0
+  blueBuff: {fileID: 0}
+  BossBuff: {fileID: 0}
   midTurn: 0
 --- !u!222 &118546870
 CanvasRenderer:
@@ -1677,8 +1677,8 @@ RectTransform:
   m_GameObject: {fileID: 2615615379311495569}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.2, y: 2.2, z: 2.2}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3127255298891522307}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1715,7 +1715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8ce8420d32d1e954da8ad4a683280a18, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fb8fa6ef538ea074c9f585c83538673f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

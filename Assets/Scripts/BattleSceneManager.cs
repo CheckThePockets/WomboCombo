@@ -67,7 +67,7 @@ public class BattleSceneManager : MonoBehaviour
     }
 	public void BeginBattle(GameObject[] prefabsArray)
     {
-        turnText.text = "Player's Turn";
+        turnText.text = "Your turn";
         banner.Play("bannerOut");
         
         //playerIcon.SetActive(true);
@@ -239,13 +239,13 @@ public class BattleSceneManager : MonoBehaviour
             endTurnButton.enabled=true;
             DrawCards(drawAmount);
 
-            turnText.text = "Player's Turn";
+            turnText.text = "Your turn";
             banner.Play("bannerOut");
         }
     }
     private IEnumerator HandleEnemyTurn()
     {
-        turnText.text = "Enemy's Turn";
+        turnText.text = "Enemy Turn";
         banner.Play("bannerIn");
 
         yield return new WaitForSeconds(1.5f);

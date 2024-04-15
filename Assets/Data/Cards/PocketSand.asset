@@ -18,7 +18,7 @@ MonoBehaviour:
     baseAmount: Apply 6 weak and Vulnerable
     upgradedAmount: Apply 8 weak and Vulnerable
   cardCost:
-    baseAmount: 2
+    baseAmount: 1
     upgradedAmount: 1
   cardEffect:
     baseAmount: 0

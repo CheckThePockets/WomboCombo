@@ -226,27 +226,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 52
+  maxHealth: 70
   currentBlock: 0
   fighterHealthBar: {fileID: 3549992747100623464}
   vulnerable:
     type: 2
-    buffIcon: {fileID: 21300000, guid: c57791cc80e8f0a468fd514923819bf4, type: 3}
+    buffIcon: {fileID: 21300000, guid: 8d1ccaecc1dfdf04d91e09456383a5fd, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   weak:
     type: 3
-    buffIcon: {fileID: 21300000, guid: e74497badffcbad4182d2df3a7599b8f, type: 3}
+    buffIcon: {fileID: 21300000, guid: 117e9b9e048fbe642ab796c6a907791d, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   strength:
     type: 0
-    buffIcon: {fileID: 21300000, guid: c976812c798dcf24387145e0a137ca22, type: 3}
+    buffIcon: {fileID: 21300000, guid: 7a68186eb81fc9a41915e0dd90c75e3c, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   ritual:
     type: 4
-    buffIcon: {fileID: 21300000, guid: f643a45e495a7794f92701f5c157e2ca, type: 3}
+    buffIcon: {fileID: 21300000, guid: 51418bf05fbb4f34fa66ac38c0247feb, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   enrage:
@@ -277,7 +277,7 @@ MonoBehaviour:
     debuffAmount: 0
     buffType: 4
     chance: 0
-    icon: {fileID: 21300000, guid: 0bb448c3a2153cd4cb3940cf5e64ed6b, type: 3}
+    icon: {fileID: 21300000, guid: 51418bf05fbb4f34fa66ac38c0247feb, type: 3}
   - intentType: 0
     amount: 6
     debuffAmount: 0
@@ -294,9 +294,9 @@ MonoBehaviour:
   catKnight: 0
   computerKnight: 0
   blueKnight: 0
-  boss: 0
+  Boss: 0
   blueBuff: {fileID: 0}
-  bossBuff: {fileID: 0}
+  BossBuff: {fileID: 0}
   midTurn: 0
 --- !u!222 &863394242125682081
 CanvasRenderer:

@@ -998,27 +998,27 @@ MonoBehaviour:
   fighterHealthBar: {fileID: 1137176563113577820}
   vulnerable:
     type: 2
-    buffIcon: {fileID: 21300000, guid: c57791cc80e8f0a468fd514923819bf4, type: 3}
+    buffIcon: {fileID: 21300000, guid: 8d1ccaecc1dfdf04d91e09456383a5fd, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   weak:
     type: 3
-    buffIcon: {fileID: 21300000, guid: e74497badffcbad4182d2df3a7599b8f, type: 3}
+    buffIcon: {fileID: 21300000, guid: 117e9b9e048fbe642ab796c6a907791d, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   strength:
     type: 0
-    buffIcon: {fileID: 21300000, guid: c976812c798dcf24387145e0a137ca22, type: 3}
+    buffIcon: {fileID: 21300000, guid: 7a68186eb81fc9a41915e0dd90c75e3c, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   ritual:
     type: 4
-    buffIcon: {fileID: 21300000, guid: f643a45e495a7794f92701f5c157e2ca, type: 3}
+    buffIcon: {fileID: 21300000, guid: 51418bf05fbb4f34fa66ac38c0247feb, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   enrage:
     type: 5
-    buffIcon: {fileID: 21300000, guid: 8c21967d4596006489d7169fc845d3d7, type: 3}
+    buffIcon: {fileID: 21300000, guid: f7015760dd3bd6245afbd07c4ea39826, type: 3}
     buffValue: 0
     buffGO: {fileID: 0}
   buffPrefab: {fileID: 8088771124364855300, guid: d4369f77044250749b7bccda4d6cdfd1, type: 3}
@@ -1044,10 +1044,10 @@ MonoBehaviour:
     debuffAmount: 0
     buffType: 5
     chance: 0
-    icon: {fileID: 21300000, guid: 0bb448c3a2153cd4cb3940cf5e64ed6b, type: 3}
+    icon: {fileID: 21300000, guid: 51418bf05fbb4f34fa66ac38c0247feb, type: 3}
   - intentType: 4
-    amount: 6
-    debuffAmount: 2
+    amount: 12
+    debuffAmount: 4
     buffType: 2
     chance: 0
     icon: {fileID: 21300000, guid: 62f96ab558363b245a6a6b0f40432dfe, type: 3}
@@ -1058,7 +1058,7 @@ MonoBehaviour:
     chance: 0
     icon: {fileID: 21300000, guid: c058a37556b675c4aba73550727d39e2, type: 3}
   - intentType: 0
-    amount: 14
+    amount: 16
     debuffAmount: 0
     buffType: 0
     chance: 0

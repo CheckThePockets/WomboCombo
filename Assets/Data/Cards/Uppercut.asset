@@ -21,8 +21,8 @@ MonoBehaviour:
     baseAmount: 2
     upgradedAmount: 2
   cardEffect:
-    baseAmount: 12
-    upgradedAmount: 14
+    baseAmount: 14
+    upgradedAmount: 18
   buffAmount:
     baseAmount: 2
     upgradedAmount: 3

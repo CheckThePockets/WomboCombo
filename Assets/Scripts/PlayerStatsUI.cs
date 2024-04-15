@@ -11,7 +11,9 @@ public class PlayerStatsUI : MonoBehaviour
 	public TMP_Text healthDisplayText;
     public TMP_Text moneyAmountText;
     public TMP_Text floorText;
-	public Transform relicParent;
+    public TMP_Text tips;
+
+    public Transform relicParent;
 	public GameObject relicPrefab;
 	public GameObject playerStatsUIObject;
     GameManager gameManager;

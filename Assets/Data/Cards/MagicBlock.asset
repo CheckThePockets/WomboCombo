@@ -15,14 +15,14 @@ MonoBehaviour:
   cardTitle: MagicBlock
   isUpgraded: 0
   cardDescription:
-    baseAmount: Gain 10 Block
-    upgradedAmount: Gain 15 Block
+    baseAmount: Double current block
+    upgradedAmount: Double current block
   cardCost:
     baseAmount: 1
-    upgradedAmount: 1
+    upgradedAmount: 0
   cardEffect:
-    baseAmount: 10
-    upgradedAmount: 15
+    baseAmount: 8
+    upgradedAmount: 5
   buffAmount:
     baseAmount: 0
     upgradedAmount: 0

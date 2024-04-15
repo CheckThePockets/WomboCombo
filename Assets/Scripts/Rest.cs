@@ -24,7 +24,7 @@ public class Rest : MonoBehaviour
     }
 	public void HandleEndScreen()
     {
-        battleSceneManager.player.currentHealth+=(int)(battleSceneManager.player.currentHealth*0.3f);
+        battleSceneManager.player.currentHealth+=(int)(battleSceneManager.player.currentHealth*0.5f);
             if(battleSceneManager.player.currentHealth>battleSceneManager.player.maxHealth)
                 battleSceneManager.player.currentHealth=battleSceneManager.player.maxHealth;
 

@@ -18,8 +18,8 @@ MonoBehaviour:
     baseAmount: Gain 2 Strength
     upgradedAmount: Gain 2 Strength
   cardCost:
-    baseAmount: 1
-    upgradedAmount: 1
+    baseAmount: 0
+    upgradedAmount: 0
   cardEffect:
     baseAmount: 0
     upgradedAmount: 0

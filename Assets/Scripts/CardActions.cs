@@ -38,18 +38,19 @@ public class CardActions : MonoBehaviour
                 AttackEnemy();
                 ApplyBuff(Buff.Type.weak);
                 break;
-            case "ExtraPocket":
+            case "ExtraPockets":
                 PerformBlock();
-                battleSceneManager.DrawCards(1);
+                battleSceneManager.DrawCards(2);
+                battleSceneManager.energy+=2;
                 break;
             case "Fireball":
                 AttackEnemy();
                 break;
             case "MagicBlock":
-                PerformBlock();
+                MagicBlock();
                 break;
-            case "Bodyslam":
-                BodySlam();
+            case "Dodge":
+                PerformBlock();
                 break;
             case "PocketSand":
                 AttackEnemy();
@@ -94,7 +95,7 @@ public class CardActions : MonoBehaviour
         }
         target.TakeDamage(totalDamage);
     }
-    private void PocketSand()
+    private void MagicBlock()
     {
         player.AddBlock(player.currentBlock);
     }
