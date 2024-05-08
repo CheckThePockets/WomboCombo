@@ -181,7 +181,7 @@ PrefabInstance:
     - target: {fileID: 1775959263092986230, guid: acce5e6ba824f6b42b79539aae457976, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: fb8fa6ef538ea074c9f585c83538673f, type: 3}
+      objectReference: {fileID: 21300000, guid: 28a205ae3b1905d47817f88a368398a8, type: 3}
     - target: {fileID: 1775959263092986230, guid: acce5e6ba824f6b42b79539aae457976, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -256,15 +256,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7277617031728462338, guid: acce5e6ba824f6b42b79539aae457976, type: 3}
       propertyPath: m_LocalScale.x
-      value: 15.794771
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7277617031728462338, guid: acce5e6ba824f6b42b79539aae457976, type: 3}
       propertyPath: m_LocalScale.y
-      value: 15.794771
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7277617031728462338, guid: acce5e6ba824f6b42b79539aae457976, type: 3}
       propertyPath: m_LocalScale.z
-      value: 15.794771
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7277617031728462338, guid: acce5e6ba824f6b42b79539aae457976, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -273,6 +273,10 @@ PrefabInstance:
     - target: {fileID: 7277617031728462338, guid: acce5e6ba824f6b42b79539aae457976, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 42.581
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277617031728462338, guid: acce5e6ba824f6b42b79539aae457976, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7310424850659375521, guid: acce5e6ba824f6b42b79539aae457976, type: 3}
       propertyPath: m_IsActive

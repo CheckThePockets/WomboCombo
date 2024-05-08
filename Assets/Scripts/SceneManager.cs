@@ -27,7 +27,7 @@ public class SceneManager : MonoBehaviour
     BattleSceneManager battleSceneManager;
     EndScreen endScreen;
     SceneFader sceneFader;
-    public enum Encounter{enemy, boss, restSite}
+    public enum Encounter{enemy, elite, boss, restSite}
     private void Awake()
     {
         gameManager = GetComponent<GameManager>();
@@ -75,9 +75,11 @@ public class SceneManager : MonoBehaviour
             battleSceneManager.StartHallwayFight();
         else if(e=="elite")
             battleSceneManager.StartEliteFight();
+        else if (e == "boss")
+           battleSceneManager.StartBossFight();
 
-        //fade from black
-        yield return new WaitForSeconds(1);
+            //fade from black
+            yield return new WaitForSeconds(1);
         Cursor.lockState=CursorLockMode.None;
     }
     public IEnumerator LoadScene(string sceneToLoad)

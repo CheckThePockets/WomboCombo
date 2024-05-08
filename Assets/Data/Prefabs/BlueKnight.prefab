@@ -425,8 +425,8 @@ RectTransform:
   m_GameObject: {fileID: 1689344731448170193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1689344731660693749}
   m_Father: {fileID: 1689344731920930018}
@@ -464,7 +464,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: eae95f83c05714241bc6e059027c0248, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 28a205ae3b1905d47817f88a368398a8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1281,13 +1281,13 @@ MonoBehaviour:
     debuffAmount: 0
     buffType: 0
     chance: 5
-    icon: {fileID: 21300000, guid: c058a37556b675c4aba73550727d39e2, type: 3}
+    icon: {fileID: 21300000, guid: 692019de85c75b14cb06bc2cb879a278, type: 3}
   - intentType: 0
-    amount: 8
+    amount: 16
     debuffAmount: 0
     buffType: 0
     chance: 5
-    icon: {fileID: 21300000, guid: c058a37556b675c4aba73550727d39e2, type: 3}
+    icon: {fileID: 21300000, guid: 692019de85c75b14cb06bc2cb879a278, type: 3}
   turns: []
   turnNumber: 0
   shuffleActions: 1
@@ -1677,7 +1677,7 @@ RectTransform:
   m_GameObject: {fileID: 2615615379311495569}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2, y: 2.2, z: 2.2}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3127255298891522307}
@@ -1715,7 +1715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fb8fa6ef538ea074c9f585c83538673f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 28a205ae3b1905d47817f88a368398a8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

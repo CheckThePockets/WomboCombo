@@ -562,7 +562,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 35.2028, y: -11.6}
+  m_AnchoredPosition: {x: 1.2028008, y: -22.6}
   m_SizeDelta: {x: 138.8041, y: 19.3756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &114670073754913772
@@ -691,7 +691,7 @@ RectTransform:
   m_GameObject: {fileID: 3627367642159561538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 9016759040412376729}
@@ -730,7 +730,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fb8fa6ef538ea074c9f585c83538673f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 28a205ae3b1905d47817f88a368398a8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1044,19 +1044,19 @@ MonoBehaviour:
     debuffAmount: 0
     buffType: 1
     chance: 0
-    icon: {fileID: 21300000, guid: fb8fa6ef538ea074c9f585c83538673f, type: 3}
+    icon: {fileID: 21300000, guid: 28a205ae3b1905d47817f88a368398a8, type: 3}
   - intentType: 0
     amount: 16
     debuffAmount: 0
     buffType: 0
     chance: 0
-    icon: {fileID: 21300000, guid: c058a37556b675c4aba73550727d39e2, type: 3}
+    icon: {fileID: 21300000, guid: 692019de85c75b14cb06bc2cb879a278, type: 3}
   - intentType: 0
     amount: 30
     debuffAmount: 0
     buffType: 0
     chance: 0
-    icon: {fileID: 21300000, guid: c058a37556b675c4aba73550727d39e2, type: 3}
+    icon: {fileID: 21300000, guid: 692019de85c75b14cb06bc2cb879a278, type: 3}
   - intentType: 3
     amount: 6
     debuffAmount: 4
@@ -1206,7 +1206,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -34, y: -11}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7827189071677012288
@@ -1426,7 +1426,7 @@ RectTransform:
   m_GameObject: {fileID: 7236671160348957270}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.29079872, y: 0.29079872, z: 0.29079872}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5874987270211434239}

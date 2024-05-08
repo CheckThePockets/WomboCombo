@@ -23,6 +23,8 @@ public class Floor : MonoBehaviour
             sceneManager.SelectBattleType("enemy");
         else if(encounter.encounterType==Encounter.Type.elite)
             sceneManager.SelectBattleType("elite");
+        else if (encounter.encounterType == Encounter.Type.boss)
+            sceneManager.SelectBattleType("boss");
         else if(encounter.encounterType==Encounter.Type.rest)
             sceneManager.SelectScreen("Rest");
         else if(encounter.encounterType==Encounter.Type.chest)

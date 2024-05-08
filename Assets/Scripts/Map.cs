@@ -10,15 +10,24 @@ public class Map : MonoBehaviour
     public List<Floor> floors;
 	//public List<EncounterHeiarchy> allEncounters;
     public GameObject encounterPrefab;
-    public Image enemyIcon, EliteIcon;
+    public Image enemyIcon, EliteIcon, BossIcon;
     public int eliteFloors;
     public int eliteFloors2;
     public int eliteFloors3;
     public int eliteFloors4;
+    public int eliteFloors5;
+    public int eliteFloors6;
+    public int eliteFloors7;
+    public int eliteFloors8;
+
+    public int bossFloors;
+
     public int chestFloors;
     public int restFloors;
     public Encounter enemyEncounter;
     public Encounter eliteEncounter;
+
+    public Encounter bossEncounter;
     
     public Encounter chestEncounter;
     public Encounter restEncounter;
@@ -35,15 +44,29 @@ public class Map : MonoBehaviour
                 floors[i].SetNodesActive(eliteEncounter);
             else if (i == eliteFloors4)
                 floors[i].SetNodesActive(eliteEncounter);
+            else if (i == eliteFloors5)
+                floors[i].SetNodesActive(eliteEncounter);
+            else if (i == eliteFloors6)
+                floors[i].SetNodesActive(eliteEncounter);
+            else if (i == eliteFloors7)
+                floors[i].SetNodesActive(eliteEncounter);
+            else if (i == eliteFloors8)
+                floors[i].SetNodesActive(eliteEncounter);
+            
 
 
 
 
 
-                else if(i==chestFloors)
+
+            else if(i==chestFloors)
                 floors[i].SetNodesActive(chestEncounter);
             else if(i==restFloors)
                 floors[i].SetNodesActive(restEncounter);
+
+            else if (i == bossFloors)
+                floors[i].SetNodesActive(bossEncounter);
+
             else
                 floors[i].SetNodesActive(enemyEncounter);
         }
@@ -76,6 +99,8 @@ public class Map : MonoBehaviour
                 floors[i].SetNodesActive(chestEncounter);
             else if(i==restFloors)
                 floors[i].SetNodesActive(restEncounter);
+            else if (i == bossFloors)
+                floors[i].SetNodesActive(bossEncounter);
             else
                 floors[i].SetNodesActive(enemyEncounter);
         }
@@ -113,7 +138,7 @@ public class Map : MonoBehaviour
 public struct Encounter
 {
     public Type encounterType;
-    public enum Type{enemy,elite,chest,rest};
+    public enum Type{enemy,elite,boss,chest,rest};
     public Sprite encounterSprite;
 
 }

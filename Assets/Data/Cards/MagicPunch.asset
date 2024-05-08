@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec5adad95ea339a43a847fb2fd71c150, type: 3}
-  m_Name: ExtraPockets
+  m_Name: MagicPunch
   m_EditorClassIdentifier: 
-  cardTitle: ExtraPockets
+  cardTitle: MagicPunch
   isUpgraded: 0
   cardDescription:
-    baseAmount: Draw 2 cards, gain 2 energy
-    upgradedAmount: Darw 3 cards, gain 3 energy
+    baseAmount: Deal 18 damage. Apply 2 Vulnarable.
+    upgradedAmount: Deal 22 damage. Apply 3 Vulnarable
   cardCost:
-    baseAmount: 1
-    upgradedAmount: 0
+    baseAmount: 2
+    upgradedAmount: 2
   cardEffect:
-    baseAmount: 0
-    upgradedAmount: 0
+    baseAmount: 18
+    upgradedAmount: 22
   buffAmount:
     baseAmount: 2
     upgradedAmount: 3
-  cardIcon: {fileID: 21300000, guid: 12096108e5af53b4f99d9c1eb6ac1c3c, type: 3}
-  cardType: 1
+  cardIcon: {fileID: 21300000, guid: ea585e991302e4d4dab3e508b7ddb424, type: 3}
+  cardType: 0
   cardClass: 0
-  cardTargetType: 0
+  cardTargetType: 1

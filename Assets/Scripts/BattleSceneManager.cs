@@ -39,7 +39,9 @@ public class BattleSceneManager : MonoBehaviour
     List<Fighter> enemyFighters = new List<Fighter>();
     public GameObject[] possibleEnemies;
     public GameObject[] possibleElites;
+    public GameObject[] possibleBoss;
     bool eliteFight;
+    bool bossFight;
     public GameObject CatKnight;
     public GameObject Boss;
     CardActions cardActions;
@@ -65,8 +67,19 @@ public class BattleSceneManager : MonoBehaviour
         eliteFight = true;
         BeginBattle(possibleElites);
     }
-	public void BeginBattle(GameObject[] prefabsArray)
+    public void StartBossFight()
     {
+        bossFight = true;
+        BeginBattle(possibleBoss);
+    }
+
+
+
+
+
+        public void BeginBattle(GameObject[] prefabsArray)
+    {
+        player.ResetBuffs();
         turnText.text = "Your turn";
         banner.Play("bannerOut");
         
@@ -111,8 +124,8 @@ public class BattleSceneManager : MonoBehaviour
         if(gameManager.PlayerHasRelic("PreservedInsect")&&eliteFight)
             enemyFighters[0].currentHealth=(int)(enemyFighters[0].currentHealth*0.25);
         
-        if(gameManager.PlayerHasRelic("Anchor"))
-            player.AddBlock(10);
+        if(gameManager.PlayerHasRelic("SmallIron"))
+            player.AddBlock(25);
 
         if(gameManager.PlayerHasRelic("Lantern"))
             energy+=1;
@@ -267,7 +280,7 @@ public class BattleSceneManager : MonoBehaviour
 
         if(gameManager.PlayerHasRelic("BurningBlood"))
         {
-            player.currentHealth+=6;
+            player.currentHealth+=3;
             if(player.currentHealth>player.maxHealth)
                 player.currentHealth=player.maxHealth;
 

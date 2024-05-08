@@ -99,7 +99,7 @@ public class Enemy : MonoBehaviour
         if(catKnight)
             battleSceneManager.CatKnight.GetComponent<Animator>().Play("Attack");
 
-        int totalDamage = turns[turnNumber].amount+thisEnemy.strength.buffValue;
+        int totalDamage = turns[turnNumber].amount+thisEnemy.strength.buffValue-thisEnemy.weak.buffValue;
         if(player.vulnerable.buffValue>0)
         {
             float a = totalDamage*1.5f;

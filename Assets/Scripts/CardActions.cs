@@ -38,7 +38,17 @@ public class CardActions : MonoBehaviour
                 AttackEnemy();
                 ApplyBuff(Buff.Type.weak);
                 break;
-            case "ExtraPockets":
+            case "MagicPunch":
+                AttackEnemy();
+                ApplyBuff(Buff.Type.vulnerable);
+                break;
+
+
+
+
+
+
+                case "ExtraPockets":
                 PerformBlock();
                 battleSceneManager.DrawCards(2);
                 battleSceneManager.energy+=2;

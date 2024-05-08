@@ -15,8 +15,8 @@ MonoBehaviour:
   cardTitle: Block
   isUpgraded: 0
   cardDescription:
-    baseAmount: Gain 5 Block
-    upgradedAmount: Gain 8 Block
+    baseAmount: Gain 8 Block
+    upgradedAmount: Gain 10 Block
   cardCost:
     baseAmount: 1
     upgradedAmount: 1
